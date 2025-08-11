@@ -4,5 +4,5 @@ services:
     repo: https://github.com/ShyamRepo/globalMockAPI
     branch: main
     buildCommand: mvn clean install
-    startCommand: java -jar target/globalMockAPI-0.0.1-SNAPSHOT.jar
+    startCommand: java -jar target/demo-0.0.1-SNAPSHOT.jar
     plan: free
