@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: global-mock-api
+    env: java
+    buildCommand: mvn clean install
+    startCommand: java -jar target/globalMockAPI-0.0.1-SNAPSHOT.jar
+    plan: free
+    branch: main
+    repo: https://github.com/ShyamRepo/globalMockAPI
